@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & família= Paixão+Um:wght@700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header{
+    background-color: black; /*Fundo do cabeçalho*/
+    background-image: url('imagens/escrita\ tinteiro.jpg');
+    background-size: cover;
+    background-position:left center ;
+    padding: 50px;
+    color: black; /*Cor da fonte*/
+    text-align: center; /*Centralizar fontes na tela*/
+    box-shadow: inset 1px 1px 10px 1px rgba(0, 0, 0, 0.644);
+    
+}
+
+
+html, body {
+    font-family: var(--font1);
+    min-height: 100%;
+    background-color: white;
+}
+
+
+header > h1 {
+    padding-top: 30px;
+    text-decoration: underline rgba(0, 0, 0, 0.144);
+    font-variant: small-caps;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5vw;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.24);
+    
+
+  
+}
+
+header > p {
+ 
+    padding: 30px; /*Espaço abaixo de "p" */
+}
+
+header a, footer a {
+    color: black; /*cor da fonte do link no cabeçalho*/
+    text-decoration: none; /*Sem sublinhado*/
+    font-weight: bolder /* Fonte em negrito*/
+}
+
+header a:hover, footer a:hover{
+
+    text-decoration: underline; /*Sublinhado ao pasar o mouse*/
+}
+
+section{ /*Configurações gerais do "Section*/
+    
+    font-family: var(--fonte2);
+    font-weight: bolder;
+    padding-top: 8vh; 
+    padding-bottom: 5vh;
+    line-height: 5vw;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em; /* Espaço entre as linhas dos parágrafos*/
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    
+    background-color: rgba(0, 0, 0, 0.438);
+  
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem > p {
+    background-color: rgba(51, 50, 50, 0.438);
+    min-height: 300px;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+
+}
+
+section#img01 {
+  background-image: url('imagens/joaninha.jpg');
+  background-size: cover;
+  
+  background-position: right center;
+
+}
+
+section#img02{
+    background-image: url('imagens/fundo01.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+footer{ /*Configurações de rodapé*/
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
