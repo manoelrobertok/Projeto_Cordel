@@ -19,7 +19,7 @@
 
 header{
     background-color: black; /*Fundo do cabeçalho*/
-    background-image: url('imagens/escrita\ tinteiro.jpg');
+    background-image: url('caneta.jpg');
     background-size: cover;
     background-position:left center ;
     padding: 50px;
@@ -106,7 +106,7 @@ section.imagem > p {
 }
 
 section#img01 {
-  background-image: url('imagens/joaninha.jpg');
+  background-image: url('joaninha.jpg');
   background-size: cover;
   
   background-position: right center;
@@ -114,7 +114,7 @@ section#img01 {
 }
 
 section#img02{
-    background-image: url('imagens/fundo01.jpg');
+    background-image: url('fundo01.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -128,6 +128,3 @@ footer{ /*Configurações de rodapé*/
     text-align: center;
     padding: 10px;
 }
-
-
-
